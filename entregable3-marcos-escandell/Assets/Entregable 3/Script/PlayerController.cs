@@ -17,5 +17,13 @@ public class PlayerController : MonoBehaviour
         {
             transform.localScale += new Vector3(0.5f, 0, 0);
         }
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            transform.localScale += new Vector3(0, 0.5f, 0);
+        }
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            transform.localScale += new Vector3(0, 0, 0.5f);
+        }
     }
 }
